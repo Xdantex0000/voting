@@ -1,0 +1,22 @@
+.Chat_Box{
+  height: 500px;
+  width: 604px;
+  position: absolute;
+  left: 34%;
+  top: 50px;
+  border: 1px solid black;
+  background-color: white;
+}
+.string{
+  width: 604px;
+}
+input{
+  width: 550px;
+}
+button{
+  width: 50px;
+}
+#bott{
+  position: absolute;
+  bottom: 0;
+}
