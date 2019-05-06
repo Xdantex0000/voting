@@ -394,15 +394,20 @@
               <item name="voting" type="b2602c69:ProjectViewProjectNode" />
               <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="voting" type="b2602c69:ProjectViewProjectNode" />
               <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
               <item name="voting" type="b2602c69:ProjectViewProjectNode" />
               <item name="voting" type="462c0819:PsiDirectoryNode" />
