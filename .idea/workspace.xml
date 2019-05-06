@@ -6,11 +6,35 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d5f7c88-494e-4a79-b53d-a9e2e7b85200" name="Default Changelist" comment="refactoring-5: Extend Chat Controller">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8d5f7c88-494e-4a79-b53d-a9e2e7b85200" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/question/question.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/question/question.component.ts" afterDir="false" />
     </list>
+    <list id="9d008ff2-ddc7-4b3d-8b28-32b6b6170def" name="Style 1.0" comment="Style 1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/V.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/V.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/voting_backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/ChatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/ChatRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/memoryStore/ChatStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/memoryStore/ChatStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-item/student-question-item.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-item/student-question-item.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/src/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voting_frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/tsconfig.json" afterDir="false" />
+    </list>
+    <list id="766aa14d-ff17-44ad-ace1-74e203797350" name="Styles 1.0" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/voting_backend/target/" />
     <ignored path="$PROJECT_DIR$/voting_frontend/target/" />
@@ -34,121 +58,92 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="voting" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/VotingApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ChatController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="20" selection-start-line="20" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/config/SwaggerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question/question.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/domain/ChatService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ShellQuestionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/voting_backend/pom.xml">
+        <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/QuestionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="359">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/docker/application_server/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="680">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="53" selection-start-column="53" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -180,6 +175,12 @@
       <find>4200</find>
       <find>Tomcat</find>
       <find>swagger</find>
+      <find>id</find>
+      <find>Message</find>
+      <find>q</find>
+      <find>AppCon</find>
+      <find>_ngconten</find>
+      <find>10</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -187,31 +188,42 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/voting_frontend</dir>
+      <dir>D:\KPI\voting\voting_backend</dir>
+      <dir>D:\KPI\voting\voting_frontend\src\app</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6ca9f135752c659d90a5c37c856cb3b73493e318" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="(2-3)_br" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/is71" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/voting_backend/.gitignore" />
-        <option value="$PROJECT_DIR$/voting_frontend/.gitignore" />
-        <option value="$PROJECT_DIR$/voting_frontend/angular.json" />
-        <option value="$PROJECT_DIR$/voting_backend/src/main/resources/public/voting_frontend/es2015-polyfills.js" />
-        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/voting_frontend/proxy.conf.json" />
-        <option value="$PROJECT_DIR$/voting_frontend/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/RestQuestionController.java" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/services/local-storage.service.ts" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/question/question.model.ts" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/answer/answer-entity.model.ts" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/services/model/answer-entity.model.ts" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/services/user.service.ts" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/answer/answer.model.ts" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.ts" />
         <option value="$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.html" />
         <option value="$PROJECT_DIR$/voting_frontend/src/app/question/question.component.html" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dto/RequestVote.java" />
@@ -225,28 +237,44 @@
         <option value="$PROJECT_DIR$/voting_frontend/src/app/services/question.service.ts" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/config/CustomPromptProvider.java" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/QuestionRepository.java" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/question/question.component.scss" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/voting_frontend/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/voting_frontend/package.json" />
         <option value="$PROJECT_DIR$/documentation/docker/application_server/Dockerfile" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/voting_backend/pom.xml" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/VotingApplication.java" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/store/MemoryStore.java" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/MemoryStore.java" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/ChatStore.java" />
-        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/memoryStore/ChatStore.java" />
+        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ShellQuestionController.java" />
+        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/index.html" />
+        <option value="$PROJECT_DIR$/voting_frontend/tsconfig.json" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-list/student-question-list.component.html" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-list/student-question-list.component.ts" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/tsconfig.spec.json" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/voting_frontend/index.ts" />
+        <option value="$PROJECT_DIR$/voting_frontend/chat-server.ts" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/ChatRepository.java" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/domain/ChatService.java" />
-        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ShellQuestionController.java" />
+        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/memoryStore/ChatStore.java" />
         <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ChatController.java" />
-        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.ts" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-item/student-question-item.component.scss" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-item/student-question-item.component.html" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/question-finder/question-finder.component.scss" />
+        <option value="$PROJECT_DIR$/voting_backend/pom.xml" />
+        <option value="$PROJECT_DIR$/voting_frontend/package.json" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/question/question.component.scss" />
         <option value="$PROJECT_DIR$/voting_frontend/src/app/question/question.component.ts" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/styles.scss" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.css" />
+        <option value="$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.html" />
       </list>
     </option>
   </component>
@@ -276,42 +304,15 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="voting_backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="voting_backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="voting_frontend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="23" />
-    <option name="width" value="1366" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -319,6 +320,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -330,119 +332,84 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
-              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
-              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
-              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
-              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
-              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
-              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
-              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kpi" type="462c0819:PsiDirectoryNode" />
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
               <item name="voting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kpi" type="462c0819:PsiDirectoryNode" />
-              <item name="voting" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kpi" type="462c0819:PsiDirectoryNode" />
               <item name="voting" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Votin_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Votin_app" type="462c0819:PsiDirectoryNode" />
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,7 +422,9 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -468,26 +437,26 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/voting_frontend/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learn\lectures\projects\voting\documentation\docker\application_server" />
+      <recent name="D:\learn\lectures\projects\voting\voting_frontend\src\app\services\model" />
+      <recent name="$PROJECT_DIR$/voting_backend/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kpi.voting.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\learn\lectures\projects\voting\documentation\docker\application_server" />
       <recent name="D:\learn\lectures\projects\voting\voting_backend\src\main\resources" />
       <recent name="D:\learn\lectures\projects\voting\voting_frontend\src\app\services" />
       <recent name="$PROJECT_DIR$/voting_backend/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kpi.voting.config" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\learn\lectures\projects\voting\documentation\docker\application_server" />
-      <recent name="D:\learn\lectures\projects\voting\voting_frontend\src\app\services\model" />
-      <recent name="$PROJECT_DIR$/voting_backend/src/main/resources/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -502,7 +471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.VotingApplication">
+  <component name="RunManager" selected="npm.start">
     <configuration name="VotingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="voting_backend" />
       <extension name="coverage">
@@ -648,6 +617,26 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="gulp" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/voting_frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="gulp" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="socket.io" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/voting_frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="socket.io" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/voting_frontend/package.json" />
       <command value="run" />
@@ -661,14 +650,18 @@
     <list>
       <item itemvalue="Docker.application_server/Dockerfile" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.socket.io" />
+      <item itemvalue="npm.gulp" />
       <item itemvalue="Spring Boot.VotingApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.14" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.VotingApplication" />
-        <item itemvalue="Docker.application_server/Dockerfile" />
         <item itemvalue="npm.start" />
+        <item itemvalue="Spring Boot.VotingApplication" />
+        <item itemvalue="npm.gulp" />
+        <item itemvalue="npm.socket.io" />
+        <item itemvalue="Docker.application_server/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -678,6 +671,8 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8d5f7c88-494e-4a79-b53d-a9e2e7b85200" name="Default Changelist" comment="" />
+      <changelist id="766aa14d-ff17-44ad-ace1-74e203797350" name="Styles 1.0" comment="" />
+      <changelist id="9d008ff2-ddc7-4b3d-8b28-32b6b6170def" name="Style 1.0" comment="" />
       <created>1553766627497</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -692,6 +687,17 @@
       <workItem from="1554735148118" duration="4574000" />
       <workItem from="1554796341083" duration="3459000" />
       <workItem from="1554809256496" duration="2713000" />
+      <workItem from="1556539711672" duration="631000" />
+      <workItem from="1556540806981" duration="1350000" />
+      <workItem from="1556785882537" duration="7634000" />
+      <workItem from="1556872086474" duration="4952000" />
+      <workItem from="1556911723337" duration="2446000" />
+      <workItem from="1556960152605" duration="31000" />
+      <workItem from="1556986121989" duration="13568000" />
+      <workItem from="1557007301666" duration="30000" />
+      <workItem from="1557139022924" duration="1471000" />
+      <workItem from="1557157049116" duration="968000" />
+      <workItem from="1557165437750" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1554038975406</created>
@@ -749,11 +755,39 @@
       <option name="project" value="LOCAL" />
       <updated>1554762298252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Styles 1.0">
+      <created>1556991841008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556991841008</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Style 1.0">
+      <created>1556996590723</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556996590723</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Style 1.0">
+      <created>1556998284839</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556998284839</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Style 1.0">
+      <created>1556998313419</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556998313419</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62459000" />
+    <option name="totallyTimeSpent" value="98204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,35 +799,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="23" width="1366" height="877" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.38964579" visible="true" weight="0.35448918" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Web" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43578643" visible="true" weight="0.27315435" />
+      <window_info id="Structure" order="1" sideWeight="0.5642136" side_tool="true" weight="0.2675906" />
+      <window_info id="Favorites" order="2" sideWeight="0.5656109" side_tool="true" weight="0.2675906" />
+      <window_info id="Web" order="3" sideWeight="0.5656109" side_tool="true" weight="0.2675906" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Learn" order="8" />
-      <window_info id="npm" order="9" sideWeight="0.61035424" side_tool="true" weight="0.32147652" />
+      <window_info id="npm" order="9" sideWeight="0.61152416" side_tool="true" weight="0.25692964" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.45467034" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.69076926" weight="0.19215156" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49840087" weight="0.3281412" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6852349" weight="0.43967828" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49946696" weight="0.32917964" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" weight="0.6730769" />
-      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49946696" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32692307" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.4697802" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49946752" weight="0.32611465" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.30923077" side_tool="true" visible="true" weight="0.1920439" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.33437175" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.66040266" weight="0.41286862" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49946752" weight="0.32606438" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.3395973" side_tool="true" visible="true" weight="0.41286862" />
       <window_info anchor="bottom" id="Spring" order="16" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="17" />
       <window_info anchor="bottom" id="CheckStyle" order="18" />
@@ -802,12 +836,12 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="21" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="22" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.04102167" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.2" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette" order="9" />
@@ -831,6 +865,12 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="127" />
+                  <entry key="3" value="127" />
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -872,113 +912,37 @@
     <MESSAGE value="add fix" />
     <MESSAGE value="refactoring-3 Chat Service" />
     <MESSAGE value="refactoring-4: Chat Service" />
-    <MESSAGE value="refactoring-5: Extend Chat Controller" />
     <MESSAGE value="refactoring-5: Extend REST API" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring-5: Extend REST API" />
+    <MESSAGE value="refactoring-5: Extend Chat Controller" />
+    <MESSAGE value="Styles 1.0" />
+    <MESSAGE value="Style 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style 1.0" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/services/local-storage.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.component.scss">
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/tsconfig.app.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.model.ts">
+    <entry file="file://$PROJECT_DIR$/voting_frontend/chat-server.ts" />
+    <entry file="file://$PROJECT_DIR$/voting_frontend/index.ts" />
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/tsconfig.spec.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/voting_frontend/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-573" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.5.RELEASE/spring-data-commons-2.1.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/domain/ChatService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/OneToMany.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/JoinColumn.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/entity/Vote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/entity/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/QuestionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/VoteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/domain/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/domain/VoteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
+        <state relative-caret-position="218">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -986,45 +950,273 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dto/RequestVoteDto.java">
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/QuestionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/config/CustomPromptProvider.java">
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/ChatRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/memoryStore/ChatStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
           <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/VotingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/UserShellController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/domain/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.5.RELEASE/spring-data-commons-2.1.5.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/QuestionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.model.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-item/student-question-item.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-item/student-question-item.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-list/student-question-list.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-list/student-question-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-list/student-question-list.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/student-question/student-question-list/student-question-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question-finder/question-finder.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question-finder/question-finder.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question/question.model.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question/question.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question/question.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss">
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question/question.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.ts">
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1035,241 +1227,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question/question.component.html">
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/services/user.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question/question.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/config/WebConfig.java" />
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/voting_backend.iml" />
-    <entry file="file://$PROJECT_DIR$/voting_frontend/package.json">
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/memoryStore.java" />
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/services/question.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="359">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/VoteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/memoryStore/ChatStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/ChatRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/VotingApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/question/question.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/domain/ChatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/docker/application_server/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ShellQuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ChatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="20" selection-start-line="20" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
@@ -1338,12 +1315,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>V</last-edited>
+          <last-edited>voting_backend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
