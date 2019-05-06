@@ -13,6 +13,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/voting_frontend/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11.0.2" project-jdk-type="JavaSDK" />
   <component name="jetbrains.communicator.idea.IdProvider" IDEtalkID="F28728C8BA625F2AA7F1D32C3D3615C2" />

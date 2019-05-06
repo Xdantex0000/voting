@@ -28,5 +28,4 @@ export class ChatComponent implements OnInit {
     this.httpClient.put('chat', message)
       .subscribe(() => this.messages.push(message));
   }
-
 }

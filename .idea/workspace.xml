@@ -70,16 +70,19 @@
         <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/voting_backend/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1888">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="359">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,11 +111,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="68">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -301,15 +304,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -327,6 +321,17 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="V" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="V" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,6 +352,47 @@
             <path>
               <item name="voting" type="b2602c69:ProjectViewProjectNode" />
               <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
               <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -363,8 +409,12 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="V" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="V" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="voting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voting" type="462c0819:PsiDirectoryNode" />
+              <item name="voting_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,6 +429,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -425,7 +476,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.VotingApplication">
+  <component name="RunManager" selected="npm.start">
     <configuration name="VotingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="voting_backend" />
       <extension name="coverage">
@@ -611,10 +662,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="Spring Boot.VotingApplication" />
         <item itemvalue="npm.gulp" />
         <item itemvalue="npm.socket.io" />
-        <item itemvalue="npm.start" />
         <item itemvalue="Docker.application_server/Dockerfile" />
       </list>
     </recent_temporary>
@@ -647,7 +698,11 @@
       <workItem from="1556872086474" duration="4952000" />
       <workItem from="1556911723337" duration="2446000" />
       <workItem from="1556960152605" duration="31000" />
-      <workItem from="1556986121989" duration="11213000" />
+      <workItem from="1556986121989" duration="13568000" />
+      <workItem from="1557007301666" duration="30000" />
+      <workItem from="1557139022924" duration="1471000" />
+      <workItem from="1557157049116" duration="968000" />
+      <workItem from="1557165437750" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1554038975406</created>
@@ -719,11 +774,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556996590723</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Style 1.0">
+      <created>1556998284839</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556998284839</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Style 1.0">
+      <created>1556998313419</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556998313419</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92963000" />
+    <option name="totallyTimeSpent" value="98204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,10 +804,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43578643" visible="true" weight="0.2675906" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43578643" visible="true" weight="0.27315435" />
       <window_info id="Structure" order="1" sideWeight="0.5642136" side_tool="true" weight="0.2675906" />
       <window_info id="Favorites" order="2" sideWeight="0.5656109" side_tool="true" weight="0.2675906" />
       <window_info id="Web" order="3" sideWeight="0.5656109" side_tool="true" weight="0.2675906" />
@@ -751,7 +820,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.45467034" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49840087" weight="0.3281412" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6865672" weight="0.44029075" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6852349" weight="0.43967828" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -760,10 +829,10 @@
       <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49946696" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.33437175" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49733475" visible="true" weight="0.28037384" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.66040266" weight="0.41286862" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32917964" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49946752" weight="0.32606438" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.28037384" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.3395973" side_tool="true" visible="true" weight="0.41286862" />
       <window_info anchor="bottom" id="Spring" order="16" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="17" />
       <window_info anchor="bottom" id="CheckStyle" order="18" />
@@ -776,8 +845,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.20575693" />
-      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.2" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette" order="9" />
@@ -801,6 +870,12 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="127" />
+                  <entry key="3" value="127" />
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -965,16 +1040,6 @@
     <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.model.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1123,37 +1188,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.html">
+    <entry file="file://$PROJECT_DIR$/voting_backend/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voting_backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1888">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1175,8 +1220,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/answer/answer.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/chat/chat.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

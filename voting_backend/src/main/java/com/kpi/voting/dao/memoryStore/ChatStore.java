@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.text.DateFormat;
+import java.util.Date;
 
 /**
  * @author Roman.Harmash
@@ -17,7 +19,8 @@ public class ChatStore {
     private List<String> messages = Collections.synchronizedList(new ArrayList<>());
 
     public void addMessage(final String message) {
-        messages.add(message);
+        Date now = new Date();
+        messages.add(DateFormat.getTimeInstance(DateFormat.SHORT).format(now) + "    " + message);
     }
 
     public List<String> getMessages() {

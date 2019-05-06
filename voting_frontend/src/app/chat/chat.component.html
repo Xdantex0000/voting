@@ -1,7 +1,12 @@
-<div *ngFor="let message of messages">
-  {{message}}
-  <br>
+<div class="Chat_Box">
+  <h2 style="text-align: center">Mini chat</h2>
+  <div id="bott">
+    <div *ngFor="let message of messages; let i = index" >
+      {{message}}
+      <br>
+    </div>
+    <input #message>
+    <button (click)="sendMessage(message.value); message.value = ''"
+            [disabled]="message.value === ''">Send</button>
+  </div>
 </div>
-<input #message>
-<button (click)="sendMessage(message.value); message.value = ''"
-        [disabled]="message.value === ''">Sent</button>

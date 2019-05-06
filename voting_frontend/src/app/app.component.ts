@@ -16,7 +16,7 @@ export enum ViewState {
 })
 export class AppComponent implements OnInit, OnDestroy {
 
-  title = 'Voting Application';
+  title = 'Web page';
   readonly viewState = ViewState;
   state: ViewState = ViewState.MAIN_QUESTION;
   private intervalSubscription: Unsubscribable;
@@ -34,7 +34,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
   sendMessage(message: string): void {
     this.httpClient.put('chat', message)
-      .subscribe(() => this.toaster.pop('success', 'Message sended.'));
+      .subscribe(() => this.toaster.pop('success', 'Message was sended.'));
   }
 
   ngOnDestroy(): void {
