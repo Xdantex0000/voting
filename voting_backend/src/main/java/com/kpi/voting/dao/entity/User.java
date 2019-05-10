@@ -18,6 +18,8 @@ public class User {
     private Long id;
     @Column
     private String name;
+    @Column
+    private int age = 18;
 
     public User() {
     }

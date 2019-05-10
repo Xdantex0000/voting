@@ -14,3 +14,14 @@ body{
   top: 80px;
   width: 100%;
 }
+#buttons{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 200px;
+}
+#buttons button{
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}

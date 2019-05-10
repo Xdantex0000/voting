@@ -2,6 +2,10 @@
   <h1>
     Welcome to {{title}}
   </h1>
+  <div id="buttons">
+    <button (click)="state = viewState.AUTHORIZATION" id="Registration">Registration</button>
+    <button (click)="state = viewState.REGISTRATION" id="Authorization">Autorization</button>
+  </div>
 </div>
 <div id="wrapper">
   <button (click)="state = viewState.MAIN_QUESTION">Main</button>
@@ -11,6 +15,12 @@
   - State {{state}}
   <br>
   <div [ngSwitch]="state">
+    <div *ngSwitchCase="viewState.AUTHORIZATION">
+      <app-student-question-list></app-student-question-list>
+    </div>
+    <div *ngSwitchCase="viewState.REGISTRATION">
+      <app-student-question-list></app-student-question-list>
+    </div>
     <div *ngSwitchCase="viewState.MAIN_QUESTION">
       <div style="text-align:center">
         <input #message>

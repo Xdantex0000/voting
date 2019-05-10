@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http';
 import {ToasterService} from 'angular2-toaster';
 
 export enum ViewState {
-  MAIN_QUESTION, STUDENT_QUESTION, QUESTION, CHAT
+  MAIN_QUESTION, STUDENT_QUESTION, QUESTION, CHAT, AUTHORIZATION, REGISTRATION
 }
 
 @Component({
