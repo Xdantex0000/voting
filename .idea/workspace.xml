@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d5f7c88-494e-4a79-b53d-a9e2e7b85200" name="Default Changelist" comment="Style 1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voting_frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/voting_frontend/src/app/app.module.ts" afterDir="false" />
-    </list>
+    <list default="true" id="8d5f7c88-494e-4a79-b53d-a9e2e7b85200" name="Default Changelist" comment="Style 1.0" />
     <list id="766aa14d-ff17-44ad-ace1-74e203797350" name="Styles 1.0" comment="Styles 1.0" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/voting_backend/target/" />
@@ -861,7 +856,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109914000" />
+    <option name="totallyTimeSpent" value="110184000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -874,9 +869,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43578643" visible="true" weight="0.2857143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43578643" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" sideWeight="0.5642136" side_tool="true" weight="0.2675906" />
       <window_info id="Favorites" order="2" sideWeight="0.5656109" side_tool="true" weight="0.2675906" />
       <window_info id="Web" order="3" sideWeight="0.5656109" side_tool="true" weight="0.2675906" />
@@ -888,7 +882,7 @@
       <window_info id="npm" order="9" sideWeight="0.61152416" side_tool="true" weight="0.25692964" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.45467034" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49733475" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49733475" weight="0.3261105" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6817697" weight="0.42686892" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -898,10 +892,10 @@
       <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49946696" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4989339" weight="0.3336945" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.66040266" weight="0.41286862" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.65991473" visible="true" weight="0.4127844" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32917964" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49946752" weight="0.32606438" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.3400853" side_tool="true" visible="true" weight="0.4127844" />
       <window_info anchor="bottom" id="Spring" order="16" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="17" />
       <window_info anchor="bottom" id="CheckStyle" order="18" />
