@@ -13,6 +13,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { StudentQuestionListComponent } from './student-question/student-question-list/student-question-list.component';
 import { QuestionFinderComponent } from './question-finder/question-finder.component';
 import { ChatComponent } from './chat/chat.component';
+import {AuthorizationComponent} from './Sign_in/Authorization/authorization.component';
+import {RegistrationComponent} from './Sign_in/Registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ChatComponent } from './chat/chat.component';
     StudentQuestionItemComponent,
     StudentQuestionListComponent,
     QuestionFinderComponent,
-    ChatComponent
+    ChatComponent,
+    RegistrationComponent,
+    AuthorizationComponent
   ],
   imports: [
     BrowserModule,

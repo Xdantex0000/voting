@@ -3,8 +3,8 @@
     Welcome to {{title}}
   </h1>
   <div id="buttons">
-    <button (click)="state = viewState.AUTHORIZATION" id="Registration">Registration</button>
-    <button (click)="state = viewState.REGISTRATION" id="Authorization">Autorization</button>
+    <button (click)="state = viewState.REGISTRATION" id="Registration">Registration</button>
+    <button (click)="state = viewState.AUTHORIZATION" id="Authorization">Autorization</button>
   </div>
 </div>
 <div id="wrapper">
@@ -16,10 +16,10 @@
   <br>
   <div [ngSwitch]="state">
     <div *ngSwitchCase="viewState.AUTHORIZATION">
-      <app-student-question-list></app-student-question-list>
+      <app-authorization></app-authorization>
     </div>
     <div *ngSwitchCase="viewState.REGISTRATION">
-      <app-student-question-list></app-student-question-list>
+      <app-registration></app-registration>
     </div>
     <div *ngSwitchCase="viewState.MAIN_QUESTION">
       <div style="text-align:center">
