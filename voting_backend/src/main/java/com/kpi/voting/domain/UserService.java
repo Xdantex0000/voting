@@ -21,9 +21,12 @@ public class UserService {
     private UserRepository userRepository;
 
 
-    public void createUser(String userName) {
+    public void createUser(String login, String password, String name, String surname) {
         User user = new User();
-        user.setName(userName);
+        user.setLogin(login);
+        user.setPassword(password);
+        user.setName(name);
+        user.setSurname(surname);
         userRepository.save(user);
     }
 

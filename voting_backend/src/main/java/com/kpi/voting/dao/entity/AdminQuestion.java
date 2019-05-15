@@ -1,7 +1,6 @@
 package com.kpi.voting.dao.entity;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name = "AdminQuestion")
@@ -21,7 +20,7 @@ public class AdminQuestion {
     }
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     public String getQuestion() {

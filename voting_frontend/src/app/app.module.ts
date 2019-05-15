@@ -15,6 +15,7 @@ import { QuestionFinderComponent } from './question-finder/question-finder.compo
 import { ChatComponent } from './chat/chat.component';
 import {AuthorizationComponent} from './Sign_in/Authorization/authorization.component';
 import {RegistrationComponent} from './Sign_in/Registration/registration.component';
+import {MatInputModule} from "@angular/material";
 
 @NgModule({
   declarations: [
@@ -33,7 +34,7 @@ import {RegistrationComponent} from './Sign_in/Registration/registration.compone
     HttpClientModule,
     BrowserAnimationsModule,
     ToasterModule.forRoot(),
-    MatCardModule, MatTabsModule
+    MatCardModule, MatTabsModule, MatInputModule
   ],
   providers: [ToasterService],
   bootstrap: [AppComponent]
