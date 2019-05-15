@@ -42,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/Sign_in/Authorization/authorization.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="204">
               <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -54,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="510">
               <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
@@ -66,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ChatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="340">
               <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/ChatRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="340">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -328,7 +328,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1050" />
     <option name="y" value="45" />
     <option name="width" value="942" />
@@ -771,6 +771,7 @@
       <workItem from="1557480181293" duration="2037000" />
       <workItem from="1557856412253" duration="762000" />
       <workItem from="1557857734859" duration="2153000" />
+      <workItem from="1557914792605" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring">
       <created>1554038975406</created>
@@ -880,9 +881,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43578643" visible="true" weight="0.2889126" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43578643" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" sideWeight="0.5642136" side_tool="true" weight="0.2675906" />
       <window_info id="Favorites" order="2" sideWeight="0.5656109" side_tool="true" weight="0.2675906" />
       <window_info id="Web" order="3" sideWeight="0.5656109" side_tool="true" weight="0.2675906" />
@@ -895,7 +895,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.45467034" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49733475" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.67963755" weight="0.42686892" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.6791045" visible="true" weight="0.46587217" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -907,7 +907,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.6593817" weight="0.4127844" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32917964" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49946752" weight="0.32606438" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.32036248" side_tool="true" visible="true" weight="0.42686892" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.32089552" side_tool="true" visible="true" weight="0.46587217" />
       <window_info anchor="bottom" id="Spring" order="16" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="17" />
       <window_info anchor="bottom" id="CheckStyle" order="18" />
@@ -1271,7 +1271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/Sign_in/Authorization/authorization.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="204">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -1281,7 +1281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voting_frontend/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="510">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="40" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
@@ -1291,7 +1291,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/controller/ChatController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="340">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1345,8 +1345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voting_backend/src/main/java/com/kpi/voting/dao/ChatRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="340">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

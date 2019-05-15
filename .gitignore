@@ -27,3 +27,4 @@ package-lock.json
 **/logs
 *.xml
 *.xml
+.idea/workspace.xml
