@@ -5,15 +5,24 @@
   </div>
   <div *ngSwitchCase="viewState.REGISTRATION">
     <div id = "Registration">
-      <h1>Registration</h1>
-      Name: <input #name matInput placeholder="name">
-      Surname: <input #surname matInput placeholder="surname">
-      <div id="blank"></div>
-      Login: <input #login matInput placeholder="login">
-      Password: <input #password matInput placeholder="password">
-      <button (click)="sendMessage(login.value, password.value, name.value, surname.value)">Sign up</button>
-      <h2>-OR-</h2>
-      <button (click)="state = viewState.AUTHORIZATION">Sign in</button>
+      <h1>Sign Up</h1>
+      <hr>
+      <div>
+      <div id="first">
+      <p>Name:<i class="far fa-smile-wink"></i></p> <input #name matInput placeholder="name">
+      <p>Surname:<i class="fas fa-signature fa-xs"></i></p> <input #surname matInput placeholder="surname">
+      </div>
+      <div id="second">
+      <p>Login:<i class="fas fa-user-edit fa-xs"></i></p> <input #login matInput placeholder="login">
+      <p>Password:<i class="fas fa-unlock fa-xs"></i></p> <input #password matInput placeholder="password">
+      </div>
+      </div>
+      <div id="third">
+        <hr>
+      <button (click)="sendMessage(login.value, password.value, name.value, surname.value)">Sign Up</button>
+      <p id="or"> — or — </p>
+      <button (click)="state = viewState.AUTHORIZATION">Sign In</button>
+    </div>
     </div>
   </div>
 </div>

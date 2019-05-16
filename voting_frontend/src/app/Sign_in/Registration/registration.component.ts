@@ -22,7 +22,7 @@ export class RegistrationComponent implements OnInit {
   ) { }
   sendMessage(login: string, password: string, name: string, surname: string): void {
     if (name === '' || surname === '' || login ===  '' || password === '') {
-      alert('Вы ввели не все данные');
+      alert('Please enter all of the fields');
     } else {
       const formData = new FormData();
       formData.append('login', login);

@@ -8,7 +8,7 @@
   <button (click)="state = viewState.MAIN_QUESTION"> <i class="far fa-eye"></i>Home</button>
   <button (click)="state = viewState.STUDENT_QUESTION">Student <i class="fas fa-user-graduate"></i></button>
   <button (click)="state = viewState.QUESTION">Question <i class="fas fa-question"></i></button>
-  <button (click)="state = viewState.CHAT">Chat <i class="far fa-comments"></i></button>
+  <button (click)="state = viewState.CHAT">Chat <i class="fas fa-comments"></i></button>
   <button (click)="state = viewState.AUTHORIZATION" id="Authorization">Sign In <i class="fas fa-sign-in-alt"></i></button>
 </div>
 <div id="bodi">
@@ -30,8 +30,13 @@
       <h1>In development</h1>
     </div>
     <div *ngSwitchCase="viewState.QUESTION">
-      <div style="text-align:center">
+      <div id="qq">
+        <h1>Question.</h1>
+        <hr>
+        <p>Your question will be send for admins.<br> They may answer you later.</p>
+        <hr>
         <input #message>
+        <br>
         <button (click)="sendMessage(message.value)">Send Message</button>
       </div>
     </div>

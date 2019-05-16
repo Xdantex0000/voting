@@ -27,15 +27,18 @@ input{
   padding: 0;
   font-size:20px;
   font-family: monospace;
+  outline: none;
 }
 
 #Input{
+  outline: none;
   position: absolute;
   left: 34%;
   top: 725px;
 }
 
 button{
+  outline: none;
   border: 3px solid lightgrey;
   width: 120px;
   height: 57px;
@@ -46,6 +49,7 @@ button{
   border-bottom-right-radius:15px ;
   font-family: Gadugi;
   font-size: 20px;
+  letter-spacing: 2px;
 }
 
 #bott{
@@ -64,4 +68,3 @@ h2{
   overflow-x: hidden;
   height: 365px;
 }
-

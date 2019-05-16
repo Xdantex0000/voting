@@ -31,7 +31,7 @@ export class AuthorizationComponent implements OnInit {
 
   authorize(login: string, password: string): void {
     this.httpClient.get<number>(`/authorization/${login}_${password}`)
-      .subscribe(res => {LocalStorageService.setUserId(res);  this.toaster.pop('success', 'Sign in succesfuly'); },
+      .subscribe(res => {LocalStorageService.setUserId(res);  this.toaster.pop('success', 'Sign in successfully'); },
         error => {LocalStorageService.setUserId(1); this.toaster.pop('error', 'User not found'); });
 
   }

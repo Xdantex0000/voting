@@ -1,14 +1,70 @@
 #Registration{
-  margin-left: 45%;
-  width: 200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#blank{
-  margin-top: 20px;
+#first{
+  position: absolute;
+  margin-left:26%;
 }
+
+#second{
+  position: absolute;
+  margin-left: 47%;
+}
+
+#third{
+  margin-top:15%;
+}
+
 input{
-  width: 150px;
+  outline: none;
+  width: 300px;
+  height:50px;
   margin-bottom: 5px;
+  border-radius:40px;
+  border: solid #7f7f7f;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 43%;
+  font-family: Gadugi;
 }
-button{
-  margin-left: 25%;
+
+button {
+  outline: none;
+  width:160px;
+  height:45px;
+  margin-left:47%;
+  font-family: monospace;
+  background-color: white;
+  border-radius: 30px;
+  border: solid lightgrey;
+  margin-top:12px;
+  font-size: 15px;
+}
+
+h1{
+  font-size: 50px;
+  font-family: Gadugi;
+  text-align: center;
+  letter-spacing:2px;
+
+}
+
+p{
+  font-size: 20px;
+  font-family: monospace;
+  margin-left: 43%;
+}
+hr{
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#or{
+  font-family: Gadugi;
+  font-size: 20px;
+  margin-left: 49.4%;
+  opacity: 0.6;
 }
