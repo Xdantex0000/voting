@@ -1,9 +1,19 @@
-<div id = "Registration">
-  <h1>Registration</h1>
-  Name: <input #name matInput placeholder="name">
-  Surname: <input #surname matInput placeholder="surname">
-  <div id="blank"></div>
-  Login: <input #login matInput placeholder="login">
-  Password: <input #password matInput placeholder="password">
-  <button (click)="sendMessage(login.value, password.value, name.value, surname.value)">Login</button>
+<div [ngSwitch]="state">
+  <div *ngSwitchCase="viewState.AUTHORIZATION">
+    <app-authorization></app-authorization>
+    <toaster-container></toaster-container>
+  </div>
+  <div *ngSwitchCase="viewState.REGISTRATION">
+    <div id = "Registration">
+      <h1>Registration</h1>
+      Name: <input #name matInput placeholder="name">
+      Surname: <input #surname matInput placeholder="surname">
+      <div id="blank"></div>
+      Login: <input #login matInput placeholder="login">
+      Password: <input #password matInput placeholder="password">
+      <button (click)="sendMessage(login.value, password.value, name.value, surname.value)">Sign up</button>
+      <h2>-OR-</h2>
+      <button (click)="state = viewState.AUTHORIZATION">Sign in</button>
+    </div>
+  </div>
 </div>

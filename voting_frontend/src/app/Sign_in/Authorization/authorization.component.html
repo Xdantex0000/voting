@@ -1,9 +1,17 @@
-<div id = "Authorization">
-  <h1>Sign In</h1>
-  <hr>
-  <p>Login:<i class="fas fa-user-edit fa-xs"></i></p>  <input #login matInput placeholder="login"/>
-  <p>Password:<i class="fas fa-unlock fa-xs"></i></p> <input #password matInput placeholder="password"/>
-  <hr>
-  <button (click)="authorize(login.value, password.value)">Login</button>
-  <button (click)="check()">Check id</button>
+<div [ngSwitch]="state">
+  <div *ngSwitchCase="viewState.AUTHORIZATION">
+    <div id = "Authorization">
+      <h1>Sign In</h1>
+      <hr>
+      <p>Login:<i class="fas fa-user-edit fa-xs"></i></p>  <input #login matInput placeholder="login"/>
+      <p>Password:<i class="fas fa-unlock fa-xs"></i></p> <input #password matInput placeholder="password"/>
+      <hr>
+      <button (click)="authorize(login.value, password.value)">Login</button>
+      <button (click)="state = viewState.REGISTRATION">Sign up</button>
+    </div>
+  </div>
+  <div *ngSwitchCase="viewState.REGISTRATION">
+    <app-registration></app-registration>
+  </div>
 </div>
+

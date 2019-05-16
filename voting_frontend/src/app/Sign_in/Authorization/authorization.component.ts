@@ -11,6 +11,10 @@ class User {
   public password: string;
 }
 
+export enum ViewState {
+  AUTHORIZATION, REGISTRATION
+}
+
 @Component({
   selector: 'app-authorization',
   templateUrl: './authorization.component.html',
@@ -18,6 +22,9 @@ class User {
 })
 
 export class AuthorizationComponent implements OnInit {
+
+  readonly viewState = ViewState;
+  state: ViewState = ViewState.AUTHORIZATION;
 
   constructor(private httpClient: HttpClient,
               private toaster: ToasterService) { }
@@ -28,8 +35,6 @@ export class AuthorizationComponent implements OnInit {
         error => {LocalStorageService.setUserId(1); this.toaster.pop('error', 'User not found'); });
 
   }
-  check(): void {
-    alert(LocalStorageService.getUserId());
-  }
+
   ngOnInit() { }
 }

@@ -2,12 +2,19 @@ import { Component, OnInit } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {ToasterService} from "angular2-toaster";
 
+export enum ViewState {
+  AUTHORIZATION, REGISTRATION
+}
+
 @Component({
   selector: 'app-registration',
   templateUrl: './registration.component.html',
   styleUrls: ['./registration.component.css']
 })
 export class RegistrationComponent implements OnInit {
+
+  readonly viewState = ViewState;
+  state: ViewState = ViewState.REGISTRATION;
 
   constructor(
     private httpClient: HttpClient,
