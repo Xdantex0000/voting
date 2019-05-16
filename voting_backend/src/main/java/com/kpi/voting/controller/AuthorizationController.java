@@ -18,8 +18,8 @@ public class AuthorizationController {
     @CrossOrigin("http://localhost:4200")
     @RequestMapping(value = "/{login}_{password}", method = RequestMethod.GET)
     public @ResponseBody
-    Long getUser(@PathVariable String login, @PathVariable String password) {
+    User getUser(@PathVariable String login, @PathVariable String password) {
+        System.out.println(1);
         return userService.authorizeUser(login,password);
     }
 }
-

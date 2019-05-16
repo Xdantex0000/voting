@@ -11,6 +11,13 @@ public class AdminQuestion {
 
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column
+    private String question;
+
     public Long getId() {
         return id;
     }
@@ -18,10 +25,6 @@ public class AdminQuestion {
     public void setId(Long id) {
         this.id = id;
     }
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
     public String getQuestion() {
         return question;
@@ -31,7 +34,5 @@ public class AdminQuestion {
         this.question = question;
     }
 
-    @Column
-    private String question;
 
 }
