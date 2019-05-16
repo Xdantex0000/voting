@@ -13,15 +13,18 @@ export class RegistrationComponent implements OnInit {
     private httpClient: HttpClient,
     private toaster: ToasterService
   ) { }
-
   sendMessage(login: string, password: string, name: string, surname: string): void {
-    const formData = new FormData();
-    formData.append('login' , login);
-    formData.append('password' , password);
-    formData.append('name' , name);
-    formData.append('surname' , surname);
-    this.httpClient.put('/register/addUser', formData)
-      .subscribe(() => alert('User was created'));
+    if (name === '' || surname === '' || login ===  '' || password === '') {
+      alert('Вы ввели не все данные');
+    } else {
+      const formData = new FormData();
+      formData.append('login', login);
+      formData.append('password', password);
+      formData.append('name', name);
+      formData.append('surname', surname);
+      this.httpClient.put('/register/addUser', formData)
+        .subscribe(() => alert('User was created'));
+    }
   }
 
   ngOnInit(): void {

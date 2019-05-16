@@ -1,6 +1,6 @@
 <div id = "Authorization">
   <h1>Authorization</h1>
-  Login: <input #login>
-  Password: <input #password>
-  <button (click)="sendMessage(login.value, password.value)">Login</button>
+  Login: <input #login matInput placeholder="login">
+  Password: <input #password matInput placeholder="password">
+  <button (click)="authorize(login.value, password.value)">Login</button>
 </div>
