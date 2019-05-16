@@ -1,9 +1,10 @@
 class User {
   public id: number;
   public name: string;
-  public surname: string;
   public login: string;
   public password: string;
+  public email: string;
+  public priveleged: string;
 }
 
 export class LocalStorageService {
@@ -12,9 +13,10 @@ export class LocalStorageService {
   public static model: User = {
     id: 1,
     name: '',
-    surname: '',
     login: 'Guest',
-    password: ''
+    password: '',
+    email: '',
+    priveleged: 'user'
   };
 
   private static UserLogin = 'Guest';

@@ -1,6 +1,7 @@
 <head>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
+<h2 id="User">You are logged as like: {{UserLogin}}</h2>
 <div id="header">
   <p> <i class="fab fa-java fa-2x"></i>Java Project</p>
 </div>
@@ -27,7 +28,7 @@
       <toaster-container></toaster-container>
     </div>
     <div *ngSwitchCase="viewState.STUDENT_QUESTION">
-      <h1>In development</h1>
+      <app-question></app-question>
     </div>
     <div *ngSwitchCase="viewState.QUESTION">
       <div id="qq">

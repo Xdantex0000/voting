@@ -17,13 +17,18 @@ public class User {
     @Column
     private String name;
     @Column
-    private String surname;
-    @Column
     private String login;
     @Column
     private String password;
+    @Column
+    private String priveleged;
+    @Column
+    private String email;
 
-    public User() {
+    public User(){}
+
+    public User(String privel) {
+        this.priveleged=privel;
     }
 
     public Long getId() {
@@ -42,14 +47,6 @@ public class User {
         this.name = name;
     }
 
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
     public String getLogin() {
         return login;
     }
@@ -64,6 +61,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     @Override

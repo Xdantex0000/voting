@@ -30,7 +30,7 @@ public class ChatService {
         String[] str = new String[100];
         List<ChatMessage> messages = chatRepository.findAll();
         for(int i = 0; i < messages.size();i++){
-            str[i]= messages.get(i).getUser_Login() + ": \t" + messages.get(i).getMessage();
+            str[i]= messages.get(i).getUser_Login() + ": " + messages.get(i).getMessage();
         }
         return str;
     }

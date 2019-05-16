@@ -9,17 +9,17 @@
       <hr>
       <div>
       <div id="first">
-      <p>Name:<i class="far fa-smile-wink"></i></p> <input #name matInput placeholder="name">
-      <p>Surname:<i class="fas fa-signature fa-xs"></i></p> <input #surname matInput placeholder="surname">
+        <p>Name:<i class="far fa-smile-wink"></i></p> <input #name matInput placeholder="name">
+        <p>Email:<i class="fas fa-signature fa-xs"></i></p> <input #email matInput placeholder="email">
       </div>
       <div id="second">
-      <p>Login:<i class="fas fa-user-edit fa-xs"></i></p> <input #login matInput placeholder="login">
-      <p>Password:<i class="fas fa-unlock fa-xs"></i></p> <input #password matInput placeholder="password">
+        <p>Login:<i class="fas fa-user-edit fa-xs"></i></p> <input #login matInput placeholder="login">
+        <p>Password:<i class="fas fa-unlock fa-xs"></i></p> <input #password matInput placeholder="password">
       </div>
       </div>
       <div id="third">
         <hr>
-      <button (click)="sendMessage(login.value, password.value, name.value, surname.value)">Sign Up</button>
+      <button (click)="sendMessage(login.value, password.value, name.value, email.value)">Sign Up</button>
       <p id="or"> — or — </p>
       <button (click)="state = viewState.AUTHORIZATION">Sign In</button>
     </div>

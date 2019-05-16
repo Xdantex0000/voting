@@ -12,7 +12,7 @@ public class RegistrationController {
     private UserService userService;
 
     @PutMapping("/addUser")
-    public void registerUser(@RequestParam String login, @RequestParam String password, @RequestParam String name, @RequestParam String surname){
-        userService.createUser(login, password, name, surname);
+    public void registerUser(@RequestParam String login, @RequestParam String password, @RequestParam String name, @RequestParam String email){
+        userService.createUser(login, password, name, email);
     }
 }

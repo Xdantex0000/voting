@@ -22,12 +22,17 @@ public class UserService {
     private UserRepository userRepository;
 
 
-    public void createUser(String login, String password, String name, String surname) {
-        User user = new User();
+    public void createUser(String login, String password, String name, String email) {
+        String priv = "user";
+        if(login.equals("Dima")){
+            priv="admin";
+        }
+        User user = new User(priv);
         user.setLogin(login);
         user.setPassword(password);
         user.setName(name);
-        user.setSurname(surname);
+        System.out.println(login);
+        user.setEmail(email);
         userRepository.save(user);
     }
     public User authorizeUser(String Login, String Password){
