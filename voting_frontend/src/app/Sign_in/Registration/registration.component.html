@@ -1,9 +1,9 @@
 <div id = "Registration">
-  <h1>Sign Up</h1>
-  Name: <input #name>
-  Surname: <input #surname>
+  <h1>Registration</h1>
+  Name: <input #name matInput placeholder="name">
+  Surname: <input #surname matInput placeholder="surname">
   <div id="blank"></div>
-  Login: <input #login>
-  Password: <input #password>
-  <button (click)="sendMessage(login.value, password.value)">Login</button>
+  Login: <input #login matInput placeholder="login">
+  Password: <input #password matInput placeholder="password">
+  <button (click)="sendMessage(login.value, password.value, name.value, surname.value)">Login</button>
 </div>

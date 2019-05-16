@@ -6,6 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
+import java.util.Optional;
+
 /**
  * @author Roman.Harmash
  * @version 1.0
@@ -14,7 +16,7 @@ import org.springframework.data.repository.CrudRepository;
 public interface UserRepository extends JpaRepository<User, Long> {
 
     User findByName(String name);
-
+    Optional<User> findByLoginAndPassword(String Login, String Password);
 //    @Query("Select u FROM User u")
 //    User customFind();
 

@@ -1,8 +1,9 @@
 <div id = "Authorization">
   <h1>Sign In</h1>
   <hr>
-  <p>Login:<i class="fas fa-user-edit fa-xs"></i></p>  <input #login/>
-  <p>Password:<i class="fas fa-unlock fa-xs"></i></p> <input #password/>
+  <p>Login:<i class="fas fa-user-edit fa-xs"></i></p>  <input #login matInput placeholder="login"/>
+  <p>Password:<i class="fas fa-unlock fa-xs"></i></p> <input #password matInput placeholder="password"/>
   <hr>
-  <button (click)="sendMessage(login.value, password.value)">Login</button>
+  <button (click)="authorize(login.value, password.value)">Login</button>
+  <button (click)="check()">Check id</button>
 </div>
