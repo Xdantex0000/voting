@@ -1,12 +1,17 @@
 <div class="Chat_Box">
-  <h2 style="text-align: center">Mini chat</h2>
+  <h2 style="text-align: center">Chat</h2>
+  <hr>
   <div id="bott">
-    <div *ngFor="let message of messages; let i = index" >
-      {{message}}
-      <br>
+    <div id="chat_content">
+      <div *ngFor="let message of messages; let i = index">
+        {{message}}
+        <br>
+      </div>
     </div>
-    <input #message>
-    <button (click)="sendMessage(message.value); message.value = ''"
-            [disabled]="message.value === ''">Send</button>
   </div>
+</div>
+<div id="Input">
+  <input #message>
+  <button (click)="sendMessage(message.value); message.value = ''"
+          [disabled]="message.value === ''">Send</button>
 </div>

@@ -15,6 +15,7 @@ input{
   font-size: 20px;
   text-align: center;
   margin-left: 43%;
+  font-family: Gadugi;
 }
 
 button {
@@ -25,7 +26,8 @@ button {
   background-color: white;
   border-radius: 30px;
   border-color: lightgrey;
-  margin-top:5px;
+  margin-top:12px;
+  font-size: 15px;
 }
 
 h1{
@@ -45,5 +47,11 @@ hr{
   width:20%;
   margin-left: auto;
   margin-right: auto;
+}
 
+#or{
+  font-family: Gadugi;
+  font-size: 20px;
+  margin-left: 49.4%;
+  opacity: 0.6;
 }
