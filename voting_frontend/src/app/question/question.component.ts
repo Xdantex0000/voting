@@ -1,10 +1,11 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {QuestionService} from '../services/question.service';
-import {Question} from './question.model';
 import {Answer} from '../answer/answer.model';
-import {ToasterService} from 'angular2-toaster';
-import {Unsubscribable} from 'rxjs';
-import {filter} from 'rxjs/operators';
+import {LocalStorageService} from '../services/local-storage.service';
+import {HttpClient} from "@angular/common/http";
+import {interval} from "rxjs";
+import {el} from "@angular/platform-browser/testing/src/browser_util";
+import {Local} from "protractor/built/driverProviders";
 
 const answersCached: Answer<boolean>[] =
   [new Answer('Yes', true, {'background-color': '#4CAF50'}),
@@ -15,49 +16,24 @@ const answersCached: Answer<boolean>[] =
   templateUrl: './question.component.html',
   styleUrls: ['./question.component.scss']
 })
-export class QuestionComponent implements OnInit, OnDestroy {
+export class QuestionComponent implements OnInit{
+  privel: string;
+  questions: string[];
 
-  public question: Question;
-  public answers: Answer<any>[] = answersCached;
-  public buttonDisabled = false;
-  private questionSubscription: Unsubscribable;
-
-  constructor(private questionService: QuestionService,
-              private toaster: ToasterService) {
+  constructor(private httpClient: HttpClient,
+              private questionService: QuestionService) {
   }
 
-  ngOnInit(): void {
-    this.questionSubscription = this.questionService.question
-      .pipe(filter(q => {
-        if (!this.question && q) {
-          return true;
-        }
-
-        if (this.question && q && q.id !== this.question.id) {
-          return true;
-        } else {
-          return false;
-        }
-      }))
-      .subscribe(question => {
-        this.question = question;
-        this.buttonDisabled = false;
-      });
+  ngOnInit() {
+    this.privel = LocalStorageService.model.priveleged;
+    interval(1000)
+      .subscribe(() => this.showQuestions());
   }
-
-  public selectedAnswer(answer: Answer<any>): void {
-    this.questionService.answerQuestion(this.question, answer)
-      .subscribe(() => {
-          this.buttonDisabled = true;
-          this.toaster.pop('success', 'Thanks for answer.');
-        },
-        err => this.toaster.pop('error', err.error));
+  public check(): boolean {
+    if (this.privel === 'admin') {return true;} else {return false;}
   }
-
-  ngOnDestroy(): void {
-    if (this.questionSubscription) {
-      this.questionSubscription.unsubscribe();
-    }
+  public showQuestions(): void {
+    this.httpClient.get<string[]>('/admin-question')
+      .subscribe(res => this.questions = res, error1 => alert('Error 1'));
   }
-
 }

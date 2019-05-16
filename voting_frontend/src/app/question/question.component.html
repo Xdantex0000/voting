@@ -1,3 +1,10 @@
-<div>
-
+<div *ngIf="check()">
+  <div *ngFor="let message of questions; let i = index">
+    {{message}}
+  </div>
+</div>
+<div *ngIf="!check()">
+  <div>
+    <h1>You don't have enough privelige</h1>
+  </div>
 </div>

@@ -39,9 +39,12 @@ export class AppComponent implements OnInit, OnDestroy {
   updateUser(): void {
       this.UserLogin = LocalStorageService.model.login;
   }
-  sendMessage(question: string): void {
-    this.httpClient.put('admin-question', question)
-      .subscribe(() => this.toaster.pop('success', 'Question was sended.'));
+  sendMessage(message: string): void {
+    const formData = new FormData();
+    formData.append('question', message);
+    formData.append('email', LocalStorageService.model.email);
+    this.httpClient.put('admin-question', formData)
+      .subscribe(res => this.toaster.pop('success', 'Question was sended.'), err => this.toaster.pop('error', 'Error.'));
   }
 
   ngOnDestroy(): void {

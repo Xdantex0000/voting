@@ -14,9 +14,10 @@ public class AdminQuestion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column
     private String question;
+    @Column
+    private String email;
 
     public Long getId() {
         return id;
@@ -34,5 +35,11 @@ public class AdminQuestion {
         this.question = question;
     }
 
+    public String getEmail() {
+        return email;
+    }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }

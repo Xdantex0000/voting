@@ -15,7 +15,7 @@ export class LocalStorageService {
     name: '',
     login: 'Guest',
     password: '',
-    email: '',
+    email: 'guest@gmail.com',
     priveleged: 'user'
   };
 

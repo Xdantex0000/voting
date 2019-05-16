@@ -30,7 +30,7 @@ export class RegistrationComponent implements OnInit {
       formData.append('name', name);
       formData.append('email', email);
       this.httpClient.put('/register/addUser', formData)
-        .subscribe(() => this.toaster.pop('success', 'User was created'),
+        .subscribe(res => this.toaster.pop('success', 'User was created'),
           error => this.toaster.pop('error', 'User can\'t be created'));
     }
   }

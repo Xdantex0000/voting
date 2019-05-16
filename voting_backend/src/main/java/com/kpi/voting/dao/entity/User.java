@@ -71,6 +71,13 @@ public class User {
         this.email = email;
     }
 
+    public String getPriveleged() {
+        return priveleged;
+    }
+
+    public void setPriveleged(String priveleged) {
+        this.priveleged = priveleged;
+    }
     @Override
     public String toString() {
         return "User{" +
