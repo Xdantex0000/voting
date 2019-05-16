@@ -1,9 +1,7 @@
 .Chat_Box{
   height: 500px;
   width: 604px;
-  position: absolute;
-  left: 34%;
-  top: 50px;
+  margin-left: 35%;
   border: 1px solid black;
   background-color: white;
 }

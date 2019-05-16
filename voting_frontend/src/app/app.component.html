@@ -17,23 +17,23 @@
   <div [ngSwitch]="state">
     <div *ngSwitchCase="viewState.AUTHORIZATION">
       <app-authorization></app-authorization>
+      <toaster-container></toaster-container>
     </div>
     <div *ngSwitchCase="viewState.REGISTRATION">
       <app-registration></app-registration>
     </div>
     <div *ngSwitchCase="viewState.MAIN_QUESTION">
+      <h1>In development</h1>
+      <toaster-container></toaster-container>
+    </div>
+    <div *ngSwitchCase="viewState.STUDENT_QUESTION">
+      <h1>In development</h1>
+    </div>
+    <div *ngSwitchCase="viewState.QUESTION">
       <div style="text-align:center">
         <input #message>
         <button (click)="sendMessage(message.value)">Send Message</button>
-        <app-question></app-question>
-        <toaster-container></toaster-container>
       </div>
-    </div>
-    <div *ngSwitchCase="viewState.STUDENT_QUESTION">
-      <app-student-question-list></app-student-question-list>
-    </div>
-    <div *ngSwitchCase="viewState.QUESTION">
-      <app-question-finder></app-question-finder>
     </div>
     <div *ngSwitchCase="viewState.CHAT">
       <app-chat></app-chat>

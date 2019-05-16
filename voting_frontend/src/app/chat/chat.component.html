@@ -5,8 +5,8 @@
       {{message}}
       <br>
     </div>
-    <input #message>
-    <button (click)="sendMessage(message.value); message.value = ''"
-            [disabled]="message.value === ''">Send</button>
+      <input #message>
+      <button (click)="sendMessage(message.value); message.value = ''"
+              [disabled]="message.value === ''">Send</button>
   </div>
 </div>
