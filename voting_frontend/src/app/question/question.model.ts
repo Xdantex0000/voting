@@ -1,8 +1,8 @@
 export class Question {
-  id: bigint;
+  id: number;
   title: string;
 
-  constructor(id: bigint = null, title: string = null) {
+  constructor(id: number = null, title: string = null) {
     this.id = id;
     this.title = title;
   }

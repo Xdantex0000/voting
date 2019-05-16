@@ -2,26 +2,51 @@ body{
   margin: 0;
   padding: 0;
 }
+head{
+  margin: 0;
+  padding: 0;
+}
 #header{
   position: absolute;
-  width: 100%;
-  height: 80px;
-  margin: 0;
-  background-color: wheat;
+
+  padding-left:71%;
 }
+
+#header p{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  letter-spacing:-6px;
+  font-size:50px ;
+  margin-right:70px;
+}
+
 #wrapper{
   position: absolute;
-  top: 80px;
-  width: 100%;
+  top:80px;
+  padding-left:10%;
 }
-#buttons{
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  width: 200px;
+
+#wrapper button{
+  font-family:Gadugi;
+  margin:10px;
+  padding:10px;
+  width:180px;
+  height:66px;
+  font-size:22px;
+  background-color: #f8f8f8;
+  border-radius:35px;
+  border-color:#7f7f7f ;
+  letter-spacing:1px;
 }
-#buttons button{
-  width: 200px;
-  height: 30px;
-  font-size: 20px;
+
+hr{
+  width: 78.6%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#bodi{
+  width:100%;
+  padding-top:190px;
 }

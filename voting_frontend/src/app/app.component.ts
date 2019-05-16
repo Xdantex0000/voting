@@ -16,9 +16,9 @@ export enum ViewState {
 })
 export class AppComponent implements OnInit, OnDestroy {
 
-  title = 'Web page';
+  title = 'Web Page';
   readonly viewState = ViewState;
-  state: ViewState = ViewState.MAIN_QUESTION;
+  state: ViewState = ViewState.AUTHORIZATION;
   private intervalSubscription: Unsubscribable;
 
   constructor(private userService: UserService,

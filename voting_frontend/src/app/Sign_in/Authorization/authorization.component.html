@@ -1,6 +1,8 @@
 <div id = "Authorization">
-  <h1>Authorization</h1>
-  Login: <input #login>
-  Password: <input #password>
+  <h1>Sign In</h1>
+  <hr>
+  <p>Login:<i class="fas fa-user-edit fa-xs"></i></p>  <input #login/>
+  <p>Password:<i class="fas fa-unlock fa-xs"></i></p> <input #password/>
+  <hr>
   <button (click)="sendMessage(login.value, password.value)">Login</button>
 </div>
