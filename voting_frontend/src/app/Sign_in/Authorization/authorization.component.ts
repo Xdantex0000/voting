@@ -23,7 +23,12 @@ export class AuthorizationComponent implements OnInit {
 
   authorize(login: string, password: string): void {
     this.httpClient.get<number>(`/authorization/${login}_${password}`)
-      .subscribe(res => LocalStorageService.setUserId(res));
+      .subscribe(res => {LocalStorageService.setUserId(res); alert('User autorized'); },
+        error => {LocalStorageService.setUserId(1); alert('User not found'); });
+
+  }
+  check(): void {
+    alert(LocalStorageService.getUserId());
   }
   ngOnInit() { }
 }

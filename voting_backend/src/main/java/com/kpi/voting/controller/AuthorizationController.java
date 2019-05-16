@@ -19,7 +19,6 @@ public class AuthorizationController {
     @RequestMapping(value = "/{login}_{password}", method = RequestMethod.GET)
     public @ResponseBody
     Long getUser(@PathVariable String login, @PathVariable String password) {
-        System.out.println(userService.authorizeUser(login,password));
         return userService.authorizeUser(login,password);
     }
 }
