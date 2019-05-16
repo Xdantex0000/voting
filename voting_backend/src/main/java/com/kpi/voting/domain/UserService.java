@@ -30,10 +30,11 @@ public class UserService {
         user.setSurname(surname);
         userRepository.save(user);
     }
-    public Long authorizeUser(String Login, String Password){
-        Long num = userRepository.findByLoginAndPassword(Login,Password).get().getId();
-        return num;
+    public User authorizeUser(String Login, String Password){
+        User user = userRepository.findByLoginAndPassword(Login,Password).get();
+        return user;
     }
+
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }

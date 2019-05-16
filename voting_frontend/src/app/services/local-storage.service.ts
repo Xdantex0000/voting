@@ -1,6 +1,32 @@
+class User {
+  public id: number;
+  public name: string;
+  public surname: string;
+  public login: string;
+  public password: string;
+}
+
 export class LocalStorageService {
 
+
+  public static model: User = {
+    id: 1,
+    name: '',
+    surname: '',
+    login: 'Guest',
+    password: ''
+  };
+
+  private static UserLogin = 'Guest';
   private static userId = 'userId';
+
+  public static setUserLogin(userLogin: string): void {
+    this.UserLogin = userLogin;
+  }
+
+  public static getUserLogin(): string {
+    return this.UserLogin;
+  }
 
   public static setUserId(userId: number): void {
     this.setValue(userId, this.userId);

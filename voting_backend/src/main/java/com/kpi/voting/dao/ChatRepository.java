@@ -1,9 +1,13 @@
 package com.kpi.voting.dao;
 
-import com.kpi.voting.dao.memoryStore.ChatStore;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.kpi.voting.dao.entity.ChatMessage;
+import com.kpi.voting.dao.entity.Question;
+import com.kpi.voting.dao.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @author Roman.Harmash
@@ -11,17 +15,6 @@ import java.util.List;
  * Created on 08.04.2019.
  */
 @Repository
-public class ChatRepository {
-
-    @Autowired
-    private ChatStore chatStore;
-
-    public void saveMessage(final String message) {
-        chatStore.addMessage(message);
-    }
-
-    public List<String> findAllMessages() {
-        return chatStore.getMessages();
-    }
-
+public interface ChatRepository extends JpaRepository<ChatMessage, Long> {
+    List<ChatMessage> findAll();
 }

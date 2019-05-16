@@ -12,20 +12,20 @@ import java.util.List;
  * Created on 01.04.2019.
  */
 @RestController
-@RequestMapping("chat")
+@RequestMapping("/chat")
 public class ChatController {
 
     @Autowired
     private ChatService chatService;
 
     @GetMapping()
-    public @ResponseBody List<String> getMessages() {
+    public @ResponseBody String[] getAllMessages() {
         return chatService.getAllMessages();
     }
 
-    @PutMapping()
-    public void sendMessage(@RequestBody String message) {
-        chatService.saveMessage(message);
+    @PutMapping("/addMessage")
+    public void addMessage(@RequestParam String login, @RequestParam String message){
+        chatService.addMessage(login,message);
     }
 
 }
