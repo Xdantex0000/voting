@@ -16,6 +16,7 @@ import { ChatComponent } from './chat/chat.component';
 import {AuthorizationComponent} from './Sign_in/Authorization/authorization.component';
 import {RegistrationComponent} from './Sign_in/Registration/registration.component';
 import {MatInputModule} from "@angular/material";
+import { Routes, RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
