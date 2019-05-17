@@ -35,6 +35,5 @@ export class AuthorizationComponent implements OnInit {
         error => {LocalStorageService.setUserId(1); this.toaster.pop('error', 'User not found'); });
 
   }
-
   ngOnInit() { }
 }

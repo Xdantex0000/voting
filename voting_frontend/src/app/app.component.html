@@ -10,7 +10,8 @@
   <button (click)="state = viewState.STUDENT_QUESTION">Student <i class="fas fa-user-graduate"></i></button>
   <button (click)="state = viewState.QUESTION">Question <i class="fas fa-question"></i></button>
   <button (click)="state = viewState.CHAT">Chat <i class="fas fa-comments"></i></button>
-  <button (click)="state = viewState.AUTHORIZATION" id="Authorization">Sign In <i class="fas fa-sign-in-alt"></i></button>
+  <button *ngIf="UserLogin==='Guest'" (click)="state = viewState.AUTHORIZATION" id="Authorization">Sign In <i class="fas fa-sign-in-alt"></i></button>
+  <button *ngIf="UserLogin!=='Guest'" (click)="logOut()">Log Out</button>
 </div>
 <div id="bodi">
   <hr>
