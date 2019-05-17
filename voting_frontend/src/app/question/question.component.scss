@@ -2,9 +2,33 @@
   height: 80vh;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+h2{
+  font-family: Gadugi;
+  font-size: 50px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+
+hr{
+  width: 78%;
+  margin-top: 13%;
+}
+
+#que{
+  margin-left: 38%;
+  font-family: "Century Gothic";
+  font-variant: all-small-caps;
+  font-size:23px;
+  letter-spacing:2px;
+}
+
+h1{
+  font-family: Gadugi;
+  font-size: 50px;
+  text-align: center;
+}
+
+#haa hr{
+  width: 78%;
 }

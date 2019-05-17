@@ -44,7 +44,7 @@ export class AppComponent implements OnInit, OnDestroy {
     formData.append('question', message);
     formData.append('email', LocalStorageService.model.email);
     this.httpClient.put('admin-question', formData)
-      .subscribe(res => this.toaster.pop('success', 'Question was sended.'), err => this.toaster.pop('error', 'Error.'));
+      .subscribe(res => alert('Question was sent.'), err => alert('Sorry, question failed.'));
   }
   logOut(): void{
     LocalStorageService.model.login = 'Guest';

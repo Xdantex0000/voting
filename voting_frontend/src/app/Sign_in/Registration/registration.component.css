@@ -27,7 +27,7 @@ input{
   font-size: 20px;
   text-align: center;
   margin-left: 43%;
-  font-family: Gadugi;
+  font-family: "Century Gothic";
 }
 
 button {
@@ -35,12 +35,19 @@ button {
   width:160px;
   height:45px;
   margin-left:47%;
-  font-family: monospace;
+  font-family: "Century Gothic";
   background-color: white;
   border-radius: 30px;
-  border: solid lightgrey;
+  border: 3px solid lightgray;
   margin-top:12px;
   font-size: 15px;
+  font-weight:540;
+}
+
+button:hover{
+  background-color:darkslategrey;
+  color: white;
+  border-color:#7f7f7f;
 }
 
 h1{

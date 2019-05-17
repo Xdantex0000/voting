@@ -1,17 +1,17 @@
 <head>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<h2 id="User">You are logged as like: {{UserLogin}}</h2>
+<h2 id="User">you are log in as: <i class="far fa-user fa-xss"></i>{{UserLogin}}</h2>
 <div id="header">
   <p> <i class="fab fa-java fa-2x"></i>Java Project</p>
 </div>
 <div id="wrapper">
-  <button (click)="state = viewState.MAIN_QUESTION"> <i class="far fa-eye"></i>Home</button>
-  <button (click)="state = viewState.STUDENT_QUESTION">Student <i class="fas fa-user-graduate"></i></button>
-  <button (click)="state = viewState.QUESTION">Question <i class="fas fa-question"></i></button>
+  <button (click)="state = viewState.MAIN_QUESTION"> Home <i class="fas fa-home"></i></button>
+  <button (click)="state = viewState.STUDENT_QUESTION">Info <i class="fas fa-info-circle"></i></button>
+  <button (click)="state = viewState.QUESTION">Question<i class="fas fa-question fa-xs"></i></button>
   <button (click)="state = viewState.CHAT">Chat <i class="fas fa-comments"></i></button>
   <button *ngIf="UserLogin==='Guest'" (click)="state = viewState.AUTHORIZATION" id="Authorization">Sign In <i class="fas fa-sign-in-alt"></i></button>
-  <button *ngIf="UserLogin!=='Guest'" (click)="logOut()">Log Out</button>
+  <button *ngIf="UserLogin!=='Guest'" (click)="logOut()">Log Out <i class="fas fa-sign-in-alt"></i> </button>
 </div>
 <div id="bodi">
   <hr>
@@ -25,7 +25,7 @@
       <app-registration></app-registration>
     </div>
     <div *ngSwitchCase="viewState.MAIN_QUESTION">
-      <h1>In development</h1>
+
       <toaster-container></toaster-container>
     </div>
     <div *ngSwitchCase="viewState.STUDENT_QUESTION">

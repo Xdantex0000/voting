@@ -28,17 +28,24 @@ head{
 
 #wrapper button{
   font-family:Gadugi;
+  font-weight: bold;
   margin:10px;
   padding:10px;
   width:180px;
   height:66px;
   font-size:22px;
-  border: solid #7f7f7f;
+  border: solid darkslategrey;
   background-color: #f8f8f8;
   border-radius:35px;
-
   letter-spacing:1px;
   outline: none;
+}
+
+#wrapper button:hover{
+  background-color:lightgray;
+  color: white;
+  border-color:#7f7f7f;
+  opacity: 0.7;
 }
 
 hr{
@@ -59,43 +66,55 @@ hr{
 
 #qq input{
   outline: none;
-  margin-top: 20px;
-  width: 480px;
-  height: 67px;
+  margin-top: 25px;
+  width: 520px;
+  height: 65px;
   border: 3px solid lightgray;
   border-radius: 30px;
   font-family: sans-serif;
   font-size: 25px;
+  font-family: "Century Gothic";
 }
 
 #qq button{
   outline: none;
-  margin-top: 20px;
+  margin-top: 15px;
   width:180px;
-  height:60px;
+  height:55px;
   border: 3px solid lightgray;
   border-radius:30px;
-  font-family: Gadugi;
-  font-size: 18px;
-  letter-spacing: 2px;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  letter-spacing: 1px;
   background-color: white;
 }
+#qq button:hover{
+  background-color:darkslategrey;
+  color: white;
+  border-color:#7f7f7f;
+}
+
 
 #qq h1{
   font-family: Gadugi;
   font-size: 50px;
 }
 #qq p{
-  font-family: "DejaVu Sans";
-  font-variant: small-caps;
+  font-family: "Century Gothic";
+  font-variant: all-small-caps;
   font-size:23px;
   letter-spacing:2px;
 }
 #qq hr{
   width: 40%;
 }
+
 #User{
   position: absolute;
+  margin-left: 44%;
   bottom: 2%;
-  left: 2%;
+  font-family: monospace;
+  font-variant: all-small-caps;
+  font-size: 27px;
+  opacity:0.4;
 }

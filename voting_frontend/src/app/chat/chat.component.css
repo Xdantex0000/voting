@@ -5,10 +5,9 @@
   background-color: white;
   border-top-left-radius:15px;
   border-top-right-radius:15px;
-  font-family: monospace;
-  letter-spacing:1px;
+  font-family: "Century Gothic";
   border-bottom: none;
-  font-size: 19px;
+  font-size:19px;
   position: absolute;
   left: 34%;
 }
@@ -26,7 +25,7 @@ input{
   border-bottom-left-radius:15px;
   padding: 0;
   font-size:20px;
-  font-family: monospace;
+  font-family: "Century Gothic";
   outline: none;
 }
 
@@ -50,6 +49,11 @@ button{
   font-family: Gadugi;
   font-size: 20px;
   letter-spacing: 2px;
+}
+ button:hover{
+  background-color:darkslategrey;
+  color: white;
+  border-color:#7f7f7f;
 }
 
 #bott{
