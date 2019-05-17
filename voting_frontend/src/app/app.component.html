@@ -24,8 +24,24 @@
     <div *ngSwitchCase="viewState.REGISTRATION">
       <app-registration></app-registration>
     </div>
-    <div *ngSwitchCase="viewState.MAIN_QUESTION">
-
+    <div id="main" *ngSwitchCase="viewState.MAIN_QUESTION">
+      <h1> <i class="fab fa-java fa-2x"></i>Java Project</h1>
+      <p> Welcome, to <i class="fab fa-java fa-2x"></i>Java Project!</p>
+        <h3>
+        <br>This product was created for communication between Users of web-page.<br>
+      Using web-page, you'll notice that we added 2 ways of linking different Users of the web-page.
+        <br>First is Chat, simply the easiest way to create the discussion.<br>
+      Second one is displaying on Question<i class="fas fa-question fa-xs"></i> -page.
+        <br> User, that already has an profile, can leave a question in a special question field.
+        <br>Administrator will found out it on <i class="fas fa-info-circle fa-xs"></i>Info-page. And will answer on email.
+        <p>Hope You will enjoy our small project!<i class="far fa-laugh"></i></p>
+      </h3>
+      <h2> Authors:</h2>
+      <p> <i class="fas fa-cog"></i>Eugen Zaginaylo — backend developer,<br>
+        <i class="fas fa-cog"></i>Dmitry Kashich — backend developer,<br>
+        <i class="fas fa-paint-brush"></i>Nikolay Turko — frontend developer.
+      </p>
+      <hr>
       <toaster-container></toaster-container>
     </div>
     <div *ngSwitchCase="viewState.STUDENT_QUESTION">
